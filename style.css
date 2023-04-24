@@ -1,0 +1,142 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@100;300&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 55px;
+    background-color: black;
+    color: white;
+
+
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 53px;
+    margin-right: 12px;
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2.3rem;
+    padding: 0 5px;
+}
+.container{
+    min-height: 67vh;
+    background-color: black;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 60%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg.jpeg');
+}
+.bottom{
+    position: sticky;
+    height: 66px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.icons{
+    margin-top: 14px;
+    
+}
+.iconc i {
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: #500ab426;
+    width: 101%;
+    color: #9e1cac;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+
+
+
+}
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 25px;
+
+}
+.songItemContainer{
+    margin: 0 27px;
+
+}
+
+.timeStamp{
+    margin: 0 23px;
+    
+}
+.timeStamp i {
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    align-self: flex-start;
+    margin-left: 106px;
+    display: flex;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    
+}
+#masterPlay{
+    cursor: pointer;
+}
+
+  .songItem:hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  #gif{
+    margin-right: 12px;
+  }
+#radio {
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+ 
+#circle {
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+ 
