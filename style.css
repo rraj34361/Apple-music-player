@@ -138,5 +138,61 @@ nav ul li{
 #circle {
     opacity: 0;
     transition: opacity 0.5s ease-in;
+    border-radius: 426px;
+    height: 200px;
+    animation: rotate  3s linear infinite;
+    margin: 110px;
+}
+@keyframes container {
+    from {
+        transition: 400px;
+    }
+    to {
+        transition: 100px;
+    }
 }
  
+#im1 {
+    margin: -15px 0px -107px -16px;
+    /* position: relative; */
+    z-index: 2;
+}
+
+/* Define the animation keyframes */
+@keyframes rotate {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+/* Apply the animation to the object */
+ #im2{
+    animation: rotate  3s linear infinite;
+}
+@keyframes container {
+    from {
+        transition: 400px;
+    }
+    to {
+        transition: 100px;
+    }
+} 
+
+
+
+#duration{
+    margin-left: 73vw;
+}
+
+
+
+/* .container {
+    /* display: flex; */
+    /* margin: 0px 587px;
+    position: relative;
+    animation: container 3s alternate-reverse infinite;
+} */ 
